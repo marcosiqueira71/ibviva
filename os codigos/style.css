@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+:root{
+    --cor0:#2E3D74;
+    --cor1:#FAEC0B;
+    --cor3:#1975BD;
+    
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.cabeçalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+
+ @media (max-width: 895px) {
+      .cabeçalho {
+        flex-direction: column;
+      }
+    }
+
+header{
+    background-color: var(--cor0);
+    font-size: 2em;
+    padding: 40px;
+}
+
+
+
+header > h1{
+    padding: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 10px;
+    color: var(--cor1);
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+body{
+    background-color: var(--cor0);
+}
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.426);
+    border-radius: 10px;
+}
+
+main h1{
+    font-size: 2em;
+}
+
+main p{
+    text-align: justify;
+}
+
+ul{
+    padding-inline-start: 20px;
+}
+
+
+.historia{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.hist-foto img {
+    flex: 1;
+    padding: 0px 0px 0px 15px;
+    max-width: 500px
+}
+
+
+ @media (max-width: 895px) {
+      .historia {
+        flex-direction: column;
+      }
+    }
+
+.pastores{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media (max-width: 999px) {
+      .pastores {
+        flex-direction: column;
+      }
+    }
+
+.perfil-herbert{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+}
+
+.txt-herbert{
+    width: 300px;
+}
+
+.herbert-perfil img{
+    width: 140px;
+    margin-right: 20px;
+}
+
+.perfil-felipe{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.txt-felipe{
+    width: 300px;
+}
+
+.felipe-perfil img{
+    width: 140px;
+    margin-right: 20px;
+}
