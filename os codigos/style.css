@@ -145,3 +145,26 @@ ul{
     width: 140px;
     margin-right: 10px;
 }
+
+.tabela-cultos {
+    max-width: 500px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.linha {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 16px;
+    border-bottom: 1px solid #ccc;
+}
+
+.linha:last-child {
+    border-bottom: none;
+}
+
+.linha span {
+    font-weight: 500;
+}
